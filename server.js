@@ -4,7 +4,7 @@ const assert= require("assert")
 const app=express()
 app.use(express.json())
 
-const mongoURI="mongodb+srv://nour:nour198800@cluster0-8bamv.mongodb.net/test?retryWrites=true&w=majority"
+const mongoURI="mongodb+srv://password@cluster0-8bamv.mongodb.net/test?retryWrites=true&w=majority"
  const database="contact-list"
 
 
